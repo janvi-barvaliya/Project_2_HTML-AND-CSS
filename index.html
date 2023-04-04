@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Food and Drink Resturant</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap">
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        background-image: url(img\ 3-1.jpg);
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 20px;
+        display: inline-block;
+        left: 50px;
+    }
+
+    .mid {
+        /* border: 2px solid green; */
+        display: block;
+        width: 50%;
+        margin: 15px auto;
+
+    }
+
+    .right {
+        /* border: 2px solid yellow; */
+        position: absolute;
+        top: 20px;
+        display: inline-block;
+        right: 34px;
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 22px;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        padding: 32px 25px;
+
+    }
+
+    .navbar li a:hover,.navbar li a.active {
+        text-decoration: underline;
+        color: rgb(166, 161, 161);
+    }
+
+    .left img {
+        width: 90px;
+    }
+    
+    .btn{
+        font-family: 'Baloo Bhai', cursive;
+        padding: 5px 14px;
+        margin: 10px 5px;
+        border: 2px solid grey;
+        color: black;
+        font-size: 15px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(166, 161, 161);
+    }
+   .container{
+    font-family: 'Baloo Bhai', cursive;
+     margin: 55px 30px;
+    padding: 15px;
+    width: 35%;
+    font-size: 25px;
+    cursor: pointer;
+   }
+   .para{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 23px;
+    cursor: pointer;
+   } 
+   .para .last{
+    font-family: 'Baloo Bhai', cursive;
+    border: 2px solid grey;
+    border-radius: 20px;
+ }
+ .para .last:hover{
+    background-color: rgb(166, 161, 161);
+    cursor: pointer;
+ }
+</style> 
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="logo.jfif" alt="">
+            <div class="img">
+            </div>
+        </div>
+        <!-- mid box for nav bar -->
+        <div class="mid">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">online Order</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Book a Table</button><button class="btn">Book an Event</button>
+        </div>
+    </header>
+    <div class="container">
+    <h2>Welcome To Our Resturant</h2>
+    <div class="para">
+        <p>Meet,Eat & Enjoy the true test</p>
+        <button class="last">Look Menu</button>
+    </div>
+</div>
+</div>
+</body>
+</html>
